@@ -1,0 +1,41 @@
+{
+  "userDetails": [
+    {
+      "id": 1,
+      "image": "image1",
+      "friends": [1,3,4],
+      "currentJob":"Software Engineer",
+      "currentOrganisation":"TCS",
+      "headLiner":"I am optimistic and looking opportunit in ML",
+      "state":"Maharastra",
+      "city":"mumbai",
+      "domain":"IT",
+      "followers":5,
+      "Eductation":[{"institutionName":"ABC college","degree":"B.tech","fielOfStudy":"Engineering","location":"Delhi","startYear":2014,"EndYear":2018,"societyAndActivities":"i join moc"}],
+      "skills":["c++","java","word-excel"],
+      "workExperience":[{"companyName":"Xyz company","location":"india","startYear":2011,"endYear":"2014","designation":"Software Engineer","jobDetail":"something"}],
+      "certification":[{"name":"soc certify","description":"something describing the certificate","institutionName":"xyz","issueYear":"2015","expiryYear":"2018"}],
+      "post":[{"title":"heading","content":"content"},{"title":"heading2","content":"content2"},{"title":"heading3","content":"content3"}]
+      
+    },
+    {
+      "id": 2,
+      "image": "image2",
+      "friends": [1,2,3,4,7],
+      "currentJob":"Software Engineer2",
+      "currentOrganisation":"Wipro",
+      "headLiner":"I am optimistic and looking opportunit in ML",
+      "state":"Maharastra",
+      "city":"Pune",
+      "domain":"IT",
+      "followers":3,
+      "Eductation":[{"institutionName":"XYZ college","aggregatePercentage":"70%","location":"Pune","startYear":2014,"EndYear":2018,"affiliation":"IPU"}],
+      "skills":["c++","java","python"],
+      "workExperience":[{"companyName":"EVA company","year":3,"designation":"Software Engineer2","started":2012,"ended":2019}],
+      "certification":[{"name":"java certify","description":"something describing the certificate","institutionName":"xyz","institutionPlace":"delhi","year":2013}],
+      "post":[{"title":"heading","content":"content"},{"title":"heading2","content":"content2"},{"title":"heading3","content":"content3"}]
+      
+    }
+  ]
+  
+}

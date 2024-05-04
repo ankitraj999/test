@@ -1,0 +1,39 @@
+{
+  "organisationLogin": [
+    {
+      "id": 1,
+      "name": "ABC Company",
+   
+      "email":"abccompany@gmail.com",
+      "password":"12345"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Company",
+     
+      "email":"xyzcompany@gmail.com",
+      "password":"12345"
+    },
+    {
+      "id": 3,
+      "name": "Raj Company",
+   
+      "email":"rajcompany@gmail.com",
+      "password":"12345"
+    },
+    {
+      "id": 4,
+      "name": "ali Company",
+   
+      "email":"alicompany@gmail.com",
+      "password":"12345"
+    },
+    {
+      "id": 5,
+      "name": "Pune Pali",
+    
+      "email":"punepali@gmail.com",
+      "password":"12345"
+    }
+  ]
+}

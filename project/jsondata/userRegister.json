@@ -1,0 +1,85 @@
+{
+  "userLogin": [
+    {
+      "id": 1,
+      "firstName": "Ankit",
+      "lastName": "raj",
+      "userName":"ankitraj5925",
+      "emailId":"ankit@gmail.com",
+      "password":"123456"
+    },
+    {
+      "id": 2,
+      "firstName": "Ankit",
+      "lastName": "raj",
+      "userName":"ankitraj5925",
+      "emailId":"ankit@gmail.com",
+      "password":"123456"
+    },
+    {
+      "id": 3,
+      "firstName": "Niharika",
+      "lastName": "Jakkula",
+      "userName":"JakkulaNihariak",
+      "emailId":"Niharika@gmail.com",
+      "password":"3456"
+    },
+    {
+      "id": 4,
+      "firstName": "Sangamesh",
+      "lastName": "something",
+      "userName":"sanga",
+      "emailId":"sanga@gmail.com",
+      "password":"123456"
+    },
+    {
+      "id": 5,
+      "firstName": "Rishabh",
+      "lastName": "Baluja",
+      "userName":"rishabh5925",
+      "emailId":"rishabh@gmail.com",
+      "password":"123456"
+    },
+    {
+      "id": 6,
+      "firstName": "Ali",
+      "lastName": "raj",
+      "userName":"aliraj5925",
+      "emailId":"ali@gmail.com",
+      "password":"123456"
+    }, 
+    {
+      "id": 7,
+      "firstName": "amar",
+      "lastName": "ali",
+      "userName":"amarali5925",
+      "emailId":"amarali@gmail.com",
+      "password":"393456"
+    },
+    {
+      "id": 8,
+      "firstName": "Sai",
+      "lastName": "teja",
+      "userName":"teja5925",
+      "emailId":"sai@gmail.com",
+      "password":"123456"
+    },
+    {
+      "id": 9,
+      "firstName": "Tushar",
+      "lastName": "something",
+      "userName":"tushar5925",
+      "emailId":"tushar@gmail.com",
+      "password":"923456"
+    },
+    {
+      "id": 10,
+      "firstName": "sandesh",
+      "lastName": "something",
+      "userName":"sandesh5925",
+      "emailId":"sandesh@gmail.com",
+      "password":"123456"
+    }
+  ]
+ 
+}

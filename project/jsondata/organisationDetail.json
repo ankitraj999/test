@@ -1,0 +1,26 @@
+{
+  "organisationDetails": [
+    {
+      "id": 1,
+      "image":"image",
+      "name":"reference to the organisation in registration table",
+      "domain": "IT",
+      "location": "pune",
+      "jobPost":[{"title":"software Engineeer","place":"Delhi, IN","vacancy":4,"description":"this pos is for the job","applied":[]}],
+      "followers":[],
+      "about":"Abc is big firm in india and something",
+      "post":[{"title":"some title","content":"somthing about company post 1"},{"title":"some title","content":"somthing about company post 2"}]
+    },
+    {
+      "id": 2,
+      "image":"image",
+      "name":"reference to the organisation in registration table",
+      "domain": "IT",
+      "location": "Delhi",
+      "jobPost":[{"title":"software Engineeer2","place":"Delhi, IN","vacancy":6,"description":"this pos is for the job","applied":[]}],
+      "followers":[],
+      "about":"Abc is big firm in india and something",
+      "post":[{"title":"some title","content":"somthing about company post 1"},{"title":"some title","content":"somthing about company post 2"}]
+    }
+  ]
+}

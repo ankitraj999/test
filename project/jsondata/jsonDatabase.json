@@ -1,0 +1,514 @@
+{
+  "organisationDetails": [
+    {
+      "id": 1,
+      "image": "image",
+      "name": "reference to the organisation in registration table",
+      "domain": "IT",
+      "location": "pune",
+      "jobPost": [
+        {
+          "title": "software Engineeer",
+          "place": "Delhi, IN",
+          "vacancy": 4,
+          "description": "this pos is for the job",
+          "applied": []
+        }
+      ],
+      "followers": [],
+      "about": "Abc is big firm in india and something",
+      "post": [
+        {
+          "title": "some title",
+          "content": "somthing about company post 1"
+        },
+        {
+          "title": "some title",
+          "content": "somthing about company post 2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "image",
+      "name": "reference to the organisation in registration table",
+      "domain": "IT",
+      "location": "Delhi",
+      "jobPost": [
+        {
+          "title": "software Engineeer2",
+          "place": "Delhi, IN",
+          "vacancy": 6,
+          "description": "this pos is for the job",
+          "applied": []
+        }
+      ],
+      "followers": [],
+      "about": "Abc is big firm in india and something",
+      "post": [
+        {
+          "title": "some title",
+          "content": "somthing about company post 1"
+        },
+        {
+          "title": "some title",
+          "content": "somthing about company post 2"
+        }
+      ]
+    }
+  ],
+  "organisationLogin": [
+    {
+      "id": 1,
+      "name": "ABC Company",
+      "email": "abccompany@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "name": "XYZ Company",
+      "email": "xyzcompany@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 3,
+      "name": "Raj Company",
+      "email": "rajcompany@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 4,
+      "name": "ali Company",
+      "email": "alicompany@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": 5,
+      "name": "Pune Pali",
+      "email": "punepali@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "userDetails": [
+    {
+      "id": 1,
+      "userName": "AnkitRaj5925",
+      "image": "image1",
+      "friends": [
+        2,
+        3,
+        4
+      ],
+      "currentJob": "Software Engineer",
+      "currentOrganisation": "TCS",
+      "headLiner": "I am optimistic and looking opportunit in ML",
+      "state": "Maharastra",
+      "city": "mumbai",
+      "domain": "IT",
+      "followers": 5,
+      "Eductation": [
+        {
+          "institutionName": "ABC college",
+          "degree": "B.tech",
+          "fielOfStudy": "Engineering",
+          "location": "Delhi",
+          "startYear": 2014,
+          "EndYear": 2018,
+          "societyAndActivities": "i join moc"
+        }
+      ],
+      "skills": [
+        "c++",
+        "java",
+        "word-excel"
+      ],
+      "workExperience": [
+        {
+          "companyName": "Xyz company",
+          "location": "india",
+          "startYear": 2011,
+          "endYear": "2014",
+          "designation": "Software Engineer",
+          "jobDetail": "something"
+        }
+      ],
+      "certification": [
+        {
+          "name": "soc certify",
+          "description": "something describing the certificate",
+          "institutionName": "xyz",
+          "issueYear": "2015",
+          "expiryYear": "2018"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userName": "AliRaj925",
+      "image": "image2",
+      "friends": [
+        1,
+        3
+      ],
+      "currentJob": "Software Engineer2",
+      "currentOrganisation": "Wipro",
+      "headLiner": "I am optimistic and looking opportunit in ML",
+      "state": "Maharastra",
+      "city": "Pune",
+      "domain": "IT",
+      "followers": 3,
+      "Eductation": [
+        {
+          "institutionName": "XYZ college",
+          "aggregatePercentage": "70%",
+          "location": "Pune",
+          "startYear": 2014,
+          "EndYear": 2018,
+          "affiliation": "IPU"
+        }
+      ],
+      "skills": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "workExperience": [
+        {
+          "companyName": "EVA company",
+          "year": 3,
+          "designation": "Software Engineer2",
+          "started": 2012,
+          "ended": 2019
+        }
+      ],
+      "certification": [
+        {
+          "name": "java certify",
+          "description": "something describing the certificate",
+          "institutionName": "xyz",
+          "institutionPlace": "delhi",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userName": "JakkulaNiharika",
+      "image": "image1",
+      "friends": [
+        2,
+        4
+      ],
+      "currentJob": "Analyst",
+      "currentOrganisation": "capgemini",
+      "headLiner": "I am optimistic and looking opportunit in ML",
+      "state": "karnataka",
+      "city": "Bangalore",
+      "domain": "IT",
+      "followers": 5,
+      "Eductation": [
+        {
+          "institutionName": "Jakkula college",
+          "degree": "B.tech",
+          "fielOfStudy": "Engineering",
+          "location": "Delhi",
+          "startYear": 2014,
+          "EndYear": 2018,
+          "societyAndActivities": "i join moc"
+        }
+      ],
+      "skills": [
+        "c++",
+        "javascript",
+        "word-excel"
+      ],
+      "workExperience": [
+        {
+          "companyName": "Xyz company",
+          "location": "india",
+          "startYear": 2011,
+          "endYear": "2014",
+          "designation": "Software Engineer",
+          "jobDetail": "something"
+        }
+      ],
+      "certification": [
+        {
+          "name": "soc certify",
+          "description": "something describing the certificate",
+          "institutionName": "xyz",
+          "issueYear": "2015",
+          "expiryYear": "2018"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "userName": "Sanga",
+      "image": "image2",
+      "friends": [
+        1,
+        3,
+        2
+      ],
+      "currentJob": "Software Engineer2",
+      "currentOrganisation": "fujitsu",
+      "headLiner": "I am optimistic and looking opportunit in ML",
+      "state": "Maharastra",
+      "city": "pune",
+      "domain": "IT",
+      "followers": 3,
+      "Eductation": [
+        {
+          "institutionName": "XYZ college",
+          "aggregatePercentage": "70%",
+          "location": "Pune",
+          "startYear": 2014,
+          "EndYear": 2018,
+          "affiliation": "IPU"
+        }
+      ],
+      "skills": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "workExperience": [
+        {
+          "companyName": "AVA company",
+          "year": 3,
+          "designation": "Software Engineer2",
+          "started": 2012,
+          "ended": 2019
+        }
+      ],
+      "certification": [
+        {
+          "name": "java certify",
+          "description": "something describing the certificate",
+          "institutionName": "xyz",
+          "institutionPlace": "delhi",
+          "year": 2013
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "userName": "Rishabh5925",
+      "image": "image2",
+      "friends": [
+        1,
+        3,
+        2
+      ],
+      "currentJob": "Software Engineer2",
+      "currentOrganisation": "fujitsu",
+      "headLiner": "I am optimistic and looking opportunit in ML",
+      "state": "Maharastra",
+      "city": "pune",
+      "domain": "IT",
+      "followers": 3,
+      "Eductation": [
+        {
+          "institutionName": "XYZ college",
+          "aggregatePercentage": "70%",
+          "location": "Pune",
+          "startYear": 2014,
+          "EndYear": 2018,
+          "affiliation": "IPU"
+        }
+      ],
+      "skills": [
+        "c++",
+        "java",
+        "python"
+      ],
+      "workExperience": [
+        {
+          "companyName": "AVA company",
+          "year": 3,
+          "designation": "Software Engineer2",
+          "started": 2012,
+          "ended": 2019
+        }
+      ],
+      "certification": [
+        {
+          "name": "java certify",
+          "description": "something describing the certificate",
+          "institutionName": "xyz",
+          "institutionPlace": "delhi",
+          "year": 2013
+        }
+      ]
+    }
+  ],
+  "userLogin": [
+    {
+      "id": 1,
+      "firstName": "Ankit",
+      "lastName": "raj",
+      "userName": "AnkitRaj5925",
+      "emailId": "ankit@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "firstName": "Ali",
+      "lastName": "raj",
+      "userName": "AliRaj925",
+      "emailId": "ali@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 3,
+      "firstName": "Niharika",
+      "lastName": "Jakkula",
+      "userName": "JakkulaNiharika",
+      "emailId": "niharika@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 4,
+      "firstName": "Sangamesh",
+      "lastName": "something",
+      "userName": "Sanga",
+      "emailId": "sanga@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": 5,
+      "firstName": "Rishabh",
+      "lastName": "Baluja",
+      "userName": "Rishabh5925",
+      "emailId": "rishabh@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "Messages": [
+    {
+      "msg": "hello ankit",
+      "sender": 3,
+      "receiver": 1,
+      "TimeNdate": "2019-04-20T09:13:35.489Z",
+      "id": 19
+    },
+    {
+      "msg": "alie",
+      "sender": 1,
+      "receiver": 2,
+      "TimeNdate": "2019-04-27T11:53:32.125Z",
+      "id": 62
+    },
+    {
+      "msg": "alie",
+      "sender": 1,
+      "receiver": 2,
+      "TimeNdate": "2019-04-27T11:53:32.125Z",
+      "id": 63
+    },
+    {
+      "msg": "alie",
+      "sender": 1,
+      "receiver": 3,
+      "TimeNdate": "2019-04-27T11:53:32.125Z",
+      "id": 64
+    },
+    {
+      "msg": "",
+      "sender": 1,
+      "receiver": 3,
+      "TimeNdate": "2019-04-27T11:54:38.981Z",
+      "id": 65
+    },
+    {
+      "msg": "",
+      "sender": 1,
+      "receiver": 2,
+      "TimeNdate": "2019-04-29T12:20:11.992Z",
+      "id": 66
+    },
+    {
+      "msg": "",
+      "sender": 1,
+      "receiver": 2,
+      "TimeNdate": "2019-04-29T12:20:37.659Z",
+      "id": 67
+    },
+    {
+      "msg": "hi ali",
+      "sender": 1,
+      "receiver": 2,
+      "TimeNdate": "2019-04-29T12:20:41.722Z",
+      "id": 68
+    },
+    {
+      "msg": "",
+      "sender": 1,
+      "receiver": 4,
+      "TimeNdate": "2019-04-29T12:22:36.396Z",
+      "id": 69
+    },
+    {
+      "msg": "hi sangamesh",
+      "sender": 1,
+      "receiver": 4,
+      "TimeNdate": "2019-04-29T12:22:47.031Z",
+      "id": 70
+    }
+  ],
+  "post": [
+    {
+      "title": "heading",
+      "content": "content",
+      "likes": 3,
+      "comments": [
+        {
+          "whoseComment": "aali",
+          "text": "this is good"
+        }
+      ],
+      "dislikes": 1,
+      "creater": 2
+    },
+    {
+      "title": "heading2",
+      "content": "content2",
+      "likes": 3,
+      "comments": [
+        {
+          "whoseComment": "zafar",
+          "text": "this is good"
+        }
+      ],
+      "dislikes": 1,
+      "creater": 2
+    },
+    {
+      "title": "heading3",
+      "content": "content3",
+      "likes": 4,
+      "comments": [
+        {
+          "whoseComment": "zafar",
+          "text": "this is good"
+        }
+      ],
+      "dislikes": 1,
+      "creater": 1
+    },
+    {
+      "title": "heading",
+      "content": "content",
+      "likes": 7,
+      "comments": [
+        {
+          "whoseComment": "zafar",
+          "text": "this is good"
+        }
+      ],
+      "dislikes": 4,
+      "creater": 3
+    }
+  ]
+}

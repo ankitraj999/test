@@ -1,0 +1,239 @@
+<app-nav></app-nav>
+<br>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <title>Welcome to Circle</title>
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="card">
+          <div class="card-header">
+            <a href="#">
+              <img
+                class="ronded"
+                src="../../../assets/usericon.jpg"
+                align="center"
+                width="170px"
+                height="170px"
+              />
+              
+            </a>
+            <h3 align="center">Jakkula Niharika</h3>
+          </div>
+
+          <div class="card-body">
+            <font size="2" class="h9 text-muted"
+              >Connections&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+              <!--For the followers count-->
+              <a href="#">50</a> </font
+            ><br />
+
+            <font size="2" class="h9 text-muted"
+              >Following &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<a
+                href="#"
+                >50</a
+              >
+            </font>
+          </div>
+
+          <div class="card-footer">
+            <font size="2" class="h9 text-muted"
+              >Persons viewed your profile</font
+            >
+
+            &nbsp;<a href="#">50</a>
+          </div>
+        </div>
+     
+      <br />
+
+      <div class="card">
+      
+      <div class="card-header">
+      
+      <font size="2" class="h9 text-muted">Recent</font><br />
+      
+      <font size="2.8"  class="h9">#
+      <a href="#">Capgemini</a></font ><br />
+      
+      <font size="2.8" class="h9">#
+      <a href="#">Accenture</a></font ><br />
+      
+      <font size="2.8"
+      class="h9">#
+      <a  href="#">Wipro</a></font ><br />
+      
+      <font  size="2.8"
+      class="h9">#
+      <a
+      href="#">Tech Mahindra</a></font
+      
+      ><br /><br />
+      
+      <a
+      href="#">Groups</a><br
+       />
+      
+      <font
+      size="2.8"
+      class="h9">#
+      <a
+      href="#">IT</a></font
+      
+      ><br />
+      
+      <font
+      size="2.8"
+      class="h9">#
+      <a
+      href="#">BPO</a></font
+      
+      ><br />
+      
+      <font
+      size="2.8"
+      class="h9">#
+      <a
+      href="#">Services</a></font
+      
+      ><br />
+      
+      <font
+      size="2.8"
+      class="h9">#
+      <a
+      href="#">Electronics</a></font
+      
+      ><br />
+      
+      </div>
+      
+      </div>
+    </div>
+
+      
+    <div class="col-lg-7">
+    <div class="feed">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Post Form -->
+            <div class="post-form mb-3">
+              <div class="card card-info">
+                <div class="card-header bg-primary text-white">
+                  Say Somthing...
+                </div>
+                <div class="card-body">
+                  <form>
+                    <div class="form-group">
+                      <textarea
+                        class="form-control form-control-lg"
+                        placeholder="Create a post"
+                        type="text"
+                        #txtPost
+                      ></textarea>
+                    </div>
+                    <button  (click)="onSubmit(txtPost.value)" class="btn btn-primary">Post</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+            <!-- Post Feed -->
+            <div class="posts">
+              <!-- Post Item -->
+              <div class="card card-body " *ngFor="let pst of posts">
+                <div class="row">
+                  
+                    <p class="text-center">
+                        <img src="../../../assets/avatar.png" alt="Avatar" class="avatar">
+                        Post Title</p>
+                  </div>
+                  <div class="col-md-10">
+                    <p class="lead">
+                      {{ pst.post }}
+                    </p>
+                    <button type="button" class="btn btn-light mr-1" (click)="like(pst._id)">
+                      <i class="text-info fas fa-thumbs-up"></i>
+                      <span class="badge badge-light">{{ pst.likes.length }}</span>
+                    </button>
+                    <button type="button" class="btn btn-light mr-1"  (click)="dislike(pst._id)">
+                      <i class="text-secondary fas fa-thumbs-down"></i>
+                      <span class="badge badge-light">{{ pst.dislikes.length }}</span>
+                    </button>
+                    <a  (click)="toggle()" data-target="#demo" class="btn btn-primary mr-1">
+                      Comments
+                    </a>
+                    <div>
+                      <div *ngIf="toggle1" id="demo">
+                        <table class="table table-striped">
+                          <tr *ngFor="let cmt of pst.comments">
+                            <td>
+                              <h4>{{ cmt.commentedBy }}</h4>
+                              <span class="">{{ cmt.comment }}</span>
+                            </td>
+                          </tr>
+                        </table>
+        
+                        <form class="form-inline">
+                          <input class="form-control" type="text" #txtComment placeholder="comment" />
+        
+                          <button class="btn btn-primary" (click)="comment(txtComment.value, pst._id)">
+                            send
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card-footer">
+        <app-footer2></app-footer2>
+      </div>
+</div>
+  
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  
+
